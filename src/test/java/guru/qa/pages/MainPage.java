@@ -1,11 +1,17 @@
 package guru.qa.pages;
 
+import com.codeborne.selenide.CollectionCondition;
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.SelenideElement;
 import com.github.javafaker.Faker;
+import guru.qa.tests.Locale;
 
-import static com.codeborne.selenide.Selenide.$;
-import static com.codeborne.selenide.Selenide.open;
+
+import java.util.Collection;
+import java.util.List;
+
+import static com.codeborne.selenide.Selectors.byText;
+import static com.codeborne.selenide.Selenide.*;
 
 public class MainPage {
     Faker faker = new Faker();
@@ -18,7 +24,13 @@ public class MainPage {
                     readMoreButton = $(".styles_welcome_content__Z84k5 a[href=\"/services\"]"),
                     technologiesSection = $("#technologies"),
                     userEmail = $("input.styles_form_input__qpqJn"),
-                    attachFileButton = $(".styles_file_btn__UTVOY");
+                    attachFileButton = $("input[type='file']"),
+                    titleOfAttachFile = $(".styles_emty_text__eELEI"),
+                    massageField = $("textarea[placeholder='Message*']"),
+                    textNotification = $(".styles_err_text__y9dSA"),
+                    sendButton = $("button[type='submit']"),
+                    languagesButton = $(".undefined .styles_btn_panel__UaCM9 ");
+
 
 
     public MainPage openMainPage(){
@@ -61,13 +73,41 @@ public class MainPage {
         return this;
     }
 
-    public MainPage uploadFile() throws IllegalArgumentException  {
-        attachFileButton.uploadFromClasspath("example1.docx");
+    public MainPage uploadFile() throws Exception {
+        attachFileButton.uploadFromClasspath("example1.pdf");
+        return this;
+    }
+
+    public MainPage fillMessage(String message) {
+        massageField.setValue(message);
+        return this;
+    }
+
+    public MainPage clickSendButton(){
+        sendButton.click();
+        return this;
+    }
+
+    public MainPage changeLanguage(Locale locale){
+        languagesButton.$(byText(String.valueOf(locale))).click();
+        return this;
+    }
+    public MainPage checkFormWithoutMessage() {
+        textNotification.shouldHave(Condition.text("Enter your message, please"));
         return this;
     }
 
     public MainPage checkTechnologiesSection(){
         technologiesSection.shouldNotBe(Condition.empty);
+        return this;
+    }
+    public MainPage checkFileUploaded(String fileName) {
+        titleOfAttachFile.shouldHave(Condition.text(fileName));
+        return this;
+    }
+
+    public MainPage checkMainButtons(List<String> list) {
+        $$(".undefined ul").shouldHave(CollectionCondition.texts(list));
         return this;
     }
 }
