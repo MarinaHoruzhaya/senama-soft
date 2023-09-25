@@ -1,0 +1,1 @@
+{"uuid":"04e0c7cd-24e0-4187-a636-f98c70f501cf","name":"LocaleTest","children":["9af41acf-efa7-4992-ba1b-80dc819a8d17","f7e6e1d5-2111-4b7c-b889-832a3970a049"],"befores":[{"name":"beforeAll","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1695660084180,"stop":1695660084203}],"afters":[],"start":1695660084133,"stop":1695660093015}

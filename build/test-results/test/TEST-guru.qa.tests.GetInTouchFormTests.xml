@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="guru.qa.tests.GetInTouchFormTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-09-25T17:45:43" hostname="WIN-2IIN7F880J6" time="32.539">
+  <properties/>
+  <testcase name="Незаполненное поле message формы Get in touch" classname="guru.qa.tests.GetInTouchFormTests" time="32.539"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 13 - let's create a new webdriver
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=chrome Version=100.0.4896.60 Platform=linux
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 6.17.0
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 4.11.0 build revision: 040bc5406b
+[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 13: RemoteWebDriver -> RemoteWebDriver: chrome on linux (c2926878cc19fc6f80f955ea02f5c29f)
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig,webDriver=RemoteWebDriver: chrome on linux (c2926878cc19fc6f80f955ea02f5c29f),proxy=null,downloadsFolder=null] in 13 [size=1]
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Add shutdown hook in 13 [size=1]
+]]></system-err>
+</testsuite>
