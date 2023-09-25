@@ -15,6 +15,7 @@ public class GetInTouchFormTests extends BaseTest {
     @DisplayName("Успешное заполнение формы Get in touch")
     @Owner("HoruzhayaMarina")
     @Severity(SeverityLevel.BLOCKER)
+    @Tag("smoke")
     @Test
     public void successfulFillTheForm(){
         step("Открыть главную страницу", () -> {

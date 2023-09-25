@@ -10,7 +10,7 @@ import org.junit.jupiter.api.Test;
 import static io.qameta.allure.Allure.step;
 
 public class MainPageTest extends BaseTest{
-    @Tag("")
+    @Tag("smoke")
     @DisplayName("Проверка работоспособности главной страницы")
     @Owner("HoruzhayaMarina")
     @Severity(SeverityLevel.BLOCKER)

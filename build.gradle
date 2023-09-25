@@ -54,6 +54,35 @@ test {
     useJUnitPlatform()
 }
 
+tasks.withType(Test) {
+    systemProperties(System.getProperties())
+
+    testLogging {
+        lifecycle {
+            events "started", "skipped", "failed", "standard_error", "standard_out"
+            exceptionFormat "short"
+        }
+    }
+}
+
+task smoke_test(type: Test) {
+    useJUnitPlatform{
+        includeTags('smoke')
+    }
+}
+
+task negative_test(type: Test) {
+    useJUnitPlatform{
+        includeTags('negative')
+    }
+}
+
+task locale_test(type: Test) {
+    useJUnitPlatform{
+        includeTags('locale')
+    }
+}
+
 
 
 

@@ -1,6 +1,7 @@
 package guru.qa.tests;
 
 import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
@@ -18,6 +19,7 @@ public class LocaleTest extends BaseTest{
         );
     }
 
+    @Tag("locale")
     @DisplayName("Проверка содержания главных кнопок при изменении языка ")
     @MethodSource("localeTest")
     @ParameterizedTest(name = "При смене языка на {0} отображается {1}")
