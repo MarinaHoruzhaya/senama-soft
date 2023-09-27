@@ -10,7 +10,7 @@
 <img width="6%" title="Java" src="media/Java.svg">
 <img width="6%" title="Selenide" src="media/Selenide.svg">
 <img width="6%" title="Selenoid" src="media/Selenoid.svg">
-<img width="6%" title="Allure Report" src="media/Allure_Report.svg">
+<img width="6%" title="AllureReport" src="media/Allure_Report.png">
 <img width="5%" title="Allure TestOps" src="media/AllureTestOps.svg">
 <img width="6%" title="Gradle" src="media/Gradle.svg">
 <img width="6%" title="JUnit5" src="media/JUnit5.svg">
