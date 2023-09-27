@@ -4,7 +4,7 @@
 
 # <p align="center"> Проект по автоматизации тестовых сценариев для  SenamaSoft <p align="center">
 
-## ![##BC13A2](https://placehold.co/15x15/BC13A2/BC13A2.png) Использованный стек технологий
+## Использованный стек технологий
 <p align="center">
 <img width="6%" title="IntelliJ IDEA" src="media/Intelij_IDEA.svg">
 <img width="6%" title="Java" src="media/Java.svg">
@@ -47,16 +47,16 @@
 
 ## 📋 Параметры сборки в Jenkins:
 
-- REMOTE_LINK (URL Selenoid, по умолчанию selenoid.autotests.cloud)_
-- TASK (Задачи, по умолчанию test)_
-- BROWSER (Браузер, по умолчанию chrome)_
-- BROWSER_VERSION (Версия браузера, по умолчанию 100.0)_
-- BROWSER_SIZE (Размер окна браузера, по умолчанию 1920x1080)_
+- _REMOTE_LINK (URL Selenoid, по умолчанию selenoid.autotests.cloud)_
+- _TASK (Задачи, по умолчанию test)_
+- _BROWSER (Браузер, по умолчанию chrome)_
+- _BROWSER_VERSION (Версия браузера, по умолчанию 100.0)_
+- _BROWSER_SIZE (Размер окна браузера, по умолчанию 1920x1080)_
 
 ### Запуск тестов с параметрами в **Jenkins**
 
 <p align="center">
-<img src="images/screenshots/JenkinsLaunch.jpg" alt="Jenkins Launch" width="1000" height="400">
+<img src="images/screenshots/JenkinsLaunch.png" alt="Jenkins Launch" width="1000" height="400">
 </p>
 
 ---
@@ -78,13 +78,13 @@ ${TASK}
 ### Главная страница отчета 
 
 <p align="center">
-<img src="media/AllureReport.png" alt="Allure report" width="1000" height="350">
+<img src="media/AllureReport.png" alt="Allure report" width="900" height="350">
 </p>
 
 ### Тест-кейсы
 
 <p align="center">
-<img src="media/AllureTestCases.png" alt="Test case" width="1000" height="350">
+<img src="media/AllureTestCases.png" alt="Test case" width="900" height="350">
 </p>
 
 ####  Содержание тест-кейсов 
@@ -105,19 +105,19 @@ ${TASK}
 ### Dashboard
 
 <p align="center">
-<img src="media/dashboard.png" alt="TestOps dashboard" width="1000" height="350">
+<img src="media/dashboard.png" alt="TestOps dashboard" width="900" height="400">
 </p>
 
 ### Ручные и автоматизированные тест-кейсы
 
 <p align="center">
-<img src="media/TestOpsTestCases.png" alt="TestOps launch" width="1000" height="350">
+<img src="media/TestOpsTestCases.png" alt="TestOps launch" width="900" height="400">
 </p>
 
 ## <img src="media/Jira.svg" width="50" height="50"/> Интеграция с [Jira](https://jira.autotests.cloud/browse/HOMEWORK-900)
 
 <p align="center">
-<img src="media/Jira-900.png" alt="Jira" width="1000" height="350">
+<img src="media/Jira-900.png" alt="Jira" width="900" height="400">
 </p>
 
 ---
@@ -127,7 +127,7 @@ ${TASK}
 ### Уведомление из переписки с чат ботом
 
 <p align="center">
-<img src="media/TelegramBot.png" alt="Telegram" width="1000" height="350">
+<img src="media/TelegramBot.png" alt="Telegram" width="900" height="400">
 </p>
 
 ---
@@ -135,7 +135,7 @@ ${TASK}
 ## <img src="media/Selenoid.svg" width="50" height="50"/> Видео запусков теста в Selenoid
 
 <p align="center">
-<img src="media/SelenoidVideo.gif" alt="Selenoid video" width="1000" height="350">
+<img src="media/SelenoidVideo.gif" alt="Selenoid video" width="900" height="400">
 </p>
 
 
