@@ -73,7 +73,7 @@ ${TASK}
 
 ---
 
-## <img src="images/logo/Allure.svg" width="50" height="50"/> [Allure](https://jenkins.autotests.cloud/job/senama-soft-project/16/allure/) отчет
+## <img src="images/logo/AllureReport.png" width="50" height="50"/> [Allure](https://jenkins.autotests.cloud/job/senama-soft-project/16/allure/) отчет
 
 ### Главная страница отчета 
 
