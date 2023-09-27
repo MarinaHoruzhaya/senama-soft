@@ -78,7 +78,7 @@ ${TASK}
 ### Главная страница отчета 
 
 <p align="center">
-<img src="media/AllureReport.png" alt="Allure report" width="900" height="350">
+<img src="media/AllureScreen.png" alt="Allure report" width="900" height="350">
 </p>
 
 ### Тест-кейсы
