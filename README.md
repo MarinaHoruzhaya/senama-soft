@@ -56,7 +56,7 @@
 ### Запуск тестов с параметрами в **Jenkins**
 
 <p align="center">
-<img src="images/screenshots/JenkinsLaunch.png" alt="Jenkins Launch" width="1000" height="400">
+<img src="media/JenkinsLaunch.png" alt="Jenkins Launch" width="1000" height="400">
 </p>
 
 ---
