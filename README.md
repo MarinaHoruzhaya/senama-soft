@@ -127,7 +127,7 @@ ${TASK}
 ### Уведомление из переписки с чат ботом
 
 <p align="center">
-<img src="media/TelegramBot.png" alt="Telegram" width="900" height="400">
+<img src="media/TelegramBot.png" alt="Telegram" width="600" height="400">
 </p>
 
 ---
