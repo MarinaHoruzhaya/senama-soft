@@ -1,5 +1,6 @@
 package guru.qa.tests;
 
+import guru.qa.pages.PortfolioPage;
 import io.qameta.allure.Owner;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
@@ -10,7 +11,7 @@ import org.junit.jupiter.api.Test;
 import static io.qameta.allure.Allure.step;
 
 public class PortfolioPageTest extends BaseTest {
-
+    PortfolioPage portfolioPage =  new PortfolioPage();
 
     @DisplayName("Проверка работоспособности раздела Portfolio")
     @Owner("HoruzhayaMarina")

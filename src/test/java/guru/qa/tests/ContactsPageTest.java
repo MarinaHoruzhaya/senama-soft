@@ -1,5 +1,6 @@
 package guru.qa.tests;
 
+import guru.qa.pages.ContactsPage;
 import io.qameta.allure.Owner;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
@@ -10,6 +11,7 @@ import org.junit.jupiter.api.Test;
 import static io.qameta.allure.Allure.step;
 
 public class ContactsPageTest extends BaseTest {
+    ContactsPage contactsPage = new ContactsPage();
 
     @Tag("smoke")
     @DisplayName("Проверка работоспособности раздела Contacts")

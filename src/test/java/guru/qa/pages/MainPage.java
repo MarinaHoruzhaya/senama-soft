@@ -6,8 +6,6 @@ import com.codeborne.selenide.SelenideElement;
 import com.github.javafaker.Faker;
 import guru.qa.tests.Locale;
 
-
-import java.util.Collection;
 import java.util.List;
 
 import static com.codeborne.selenide.Selectors.byText;
@@ -73,7 +71,7 @@ public class MainPage {
         return this;
     }
 
-    public MainPage uploadFile() throws Exception {
+    public MainPage uploadFile() {
         attachFileButton.uploadFromClasspath("example1.pdf");
         return this;
     }

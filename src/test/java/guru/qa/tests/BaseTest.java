@@ -13,11 +13,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import java.util.Map;
 
 public class BaseTest {
-    ServicePage servicePage = new ServicePage();
     MainPage mainPage = new MainPage();
-    PortfolioPage portfolioPage =  new PortfolioPage();
-    ContactsPage contactsPage = new ContactsPage();
-    CareerPage careerPage = new CareerPage();
 
     @BeforeAll
     public static void beforeAll(){
@@ -26,7 +22,6 @@ public class BaseTest {
         Configuration.browserSize = System.getProperty("browserSize", "1920x1080");
         Configuration.browserVersion = System.getProperty("browserVersion","100.0");
         Configuration.pageLoadStrategy = "eager";
-        Configuration.remote = System.getProperty("remoteLink","https://user1:1234@selenoid.autotests.cloud/wd/hub");
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("selenoid:options", Map.of(

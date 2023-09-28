@@ -1,5 +1,6 @@
 package guru.qa.tests;
 
+import guru.qa.pages.ServicePage;
 import io.qameta.allure.Owner;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
@@ -10,6 +11,8 @@ import org.junit.jupiter.api.Test;
 import static io.qameta.allure.Allure.step;
 
 public class ServicesPageTest extends BaseTest {
+    ServicePage servicePage = new ServicePage();
+
     @DisplayName("Проверка работоспособности раздела Services")
     @Owner("HoruzhayaMarina")
     @Severity(SeverityLevel.BLOCKER)

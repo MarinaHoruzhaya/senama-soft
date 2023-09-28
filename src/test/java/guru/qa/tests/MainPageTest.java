@@ -1,5 +1,6 @@
 package guru.qa.tests;
 
+import guru.qa.pages.MainPage;
 import io.qameta.allure.Owner;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;

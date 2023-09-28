@@ -20,16 +20,23 @@
 <img width="5%" title="Jira" src="media/Jira.svg">
 </p>
 
+- В данном проекте автотесты написаны на языке <code>Java<code>  с использвоанием фреймворка для тестирования Selenide
+- В качестве сборщика был использован  - <code>Gradle<code>
+- Использованы фреймворки <code>JUnit 5</code> и [Selenide](https://selenide.org/).
+- При прогоне тестов браузер запускается в [Selenoid](https://aerokube.com/selenoid/).
+- Для удаленного запуска реализована джоба в Jenkins с формированием Allure-отчета и отправкой результатов в <code>Telegram</code> при помощи бота.
+- Осуществлена интеграция с <code>Allure TestOps </code> и <code>Jira</code>.
+
 ## Cодержание:
-- Стек технологий
-- Тестовые сценарии
-- Сборка в Jenkins
-- Команда для запуска тестов в терминале
-- Allure отчет
-- Интеграция с Allure TestOps
-- Интеграция с Jira
-- Уведомления в Telegram чат с ботом
-- Видео запуска тестов в Selenoid
+- [Стек технологий](#-Стек-технологий)
+- [Тестовые сценарии](#-Тестовые-сценарии)
+- [Сборка в Jenkins](#-Сборка-в-Jenkins)
+- [Команда для запуска тестов в терминале](#-Команды-запуска-тестов-в-терминале)
+- [Allure отчет](#-Allure-отчет)
+- [Интеграция с Allure TestOps](#-Интеграция-с-Allure-testOps)
+- [Интеграция с Jira](#-Интеграция-с-Jira)
+- [Уведомления в Telegram чат с ботом](#-Уведомления-в-Telegram-чат-с-ботом)
+- [Видео запуска тестов в Selenoid](#-Видео-запуска-тестов-в-Selenoid)
 
 ## Тестовые сценарии:
 - Проверка работоспособности главной страницы
@@ -68,7 +75,7 @@ ${TASK}
 -Dbrowser=${BROWSER}
 -DbrowserVersion=${BROWSER_VERSION}
 -DbrowserSize=${BROWSER_SIZE}
--DremoteLink=https://user1:1234@${REMOTE_LINK}/wd/hub
+-DremoteLink=https://${REMOTE_LINK}/wd/hub
 ```
 
 ---
