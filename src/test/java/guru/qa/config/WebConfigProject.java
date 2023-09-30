@@ -6,9 +6,11 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import java.util.Map;
 
 public class WebConfigProject {
+
     private final WebConfig webConfig;
 
     public WebConfigProject(WebConfig webConfig){
+
         this.webConfig = webConfig;
     }
     public void webConfig() {
