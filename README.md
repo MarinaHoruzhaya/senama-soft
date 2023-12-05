@@ -2,22 +2,22 @@
 <a href="https://www.senamasoft.com/"> <img width=70%" src="media/senamaSoftLogo.png"> </a></h1>
 <p align="center">
 
-# <p align="center"> Проект по автоматизации тестовых сценариев для  SenamaSoft <p align="center">
+# <p align="center"> Проект по автоматизации тестовых сценариев для <a href="https://www.senamasoft.com/"> SenamaSoft</a> <p align="center">
 
 ## Использованный стек технологий
 <p align="center">
-<img width="6%" title="IntelliJ IDEA" src="media/Intelij_IDEA.svg">
-<img width="6%" title="Java" src="media/Java.svg">
-<img width="6%" title="Selenide" src="media/Selenide.svg">
-<img width="6%" title="Selenoid" src="media/Selenoid.svg">
-<img width="6%" title="AllureReport" src="media/AllureReport.png">
-<img width="5%" title="Allure TestOps" src="media/AllureTestOps.svg">
-<img width="6%" title="Gradle" src="media/Gradle.svg">
-<img width="6%" title="JUnit5" src="media/JUnit5.svg">
-<img width="6%" title="GitHub" src="media/GitHub.svg">
-<img width="6%" title="Jenkins" src="media/Jenkins.svg">
-<img width="6%" title="Telegram" src="media/Telegram.svg">
-<img width="5%" title="Jira" src="media/Jira.svg">
+<a href="https://www.jetbrains.com/idea/"><img width="6%" title="IntelliJ IDEA" src="media/Intelij_IDEA.svg">
+<a href="https://www.java.com/"><img width="6%" title="Java" src="media/Java.svg">
+<a href="https://ru.selenide.org/"><img width="6%" title="Selenide" src="media/Selenide.svg">
+<a href="https://aerokube.com/selenoid/"><img width="6%" title="Selenoid" src="media/Selenoid.svg">
+<a href="https://allurereport.org/"><img width="6%" title="AllureReport" src="media/AllureReport.png">
+<a href="https://qameta.io/"><img width="5%" title="Allure TestOps" src="media/AllureTestOps.svg">
+<a href="https://gradle.org/"><img width="6%" title="Gradle" src="media/Gradle.svg">
+<a href="https://junit.org/junit5/"><img width="6%" title="JUnit5" src="media/JUnit5.svg">
+<a href="https://github.com/"><img width="6%" title="GitHub" src="media/GitHub.svg">
+<a href="https://www.jenkins.io/"><img width="6%" title="Jenkins" src="media/Jenkins.svg">
+<a href="https://web.telegram.org/a/"><img width="6%" title="Telegram" src="media/Telegram.svg">
+<a href="https://www.atlassian.com/ru/software/jira"><img width="5%" title="Jira" src="media/Jira.svg">
 </p>
 
 - В данном проекте автотесты написаны на языке <code>Java</code>  с использвоанием фреймворка для тестирования Selenide

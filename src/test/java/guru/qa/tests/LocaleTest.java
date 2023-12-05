@@ -14,8 +14,8 @@ import static io.qameta.allure.Allure.step;
 public class LocaleTest extends BaseTest{
     static Stream<Arguments> localeTest() {
         return Stream.of(
-                Arguments.of(Locale.pl, List.of("Strona główna Usługi Portfolio Kontakt Kariera Referencje")),
-                Arguments.of(Locale.en, List.of("Home Services Portfolio Contacts Career Testimonials"))
+                Arguments.of(Locale.PL, List.of("Strona główna Usługi Portfolio Kontakt Kariera Referencje")),
+                Arguments.of(Locale.ЕN, List.of("Home Services Portfolio Contacts Career Testimonials"))
         );
     }
 
